@@ -4,7 +4,7 @@ DOTFILES=$(pwd)
 
 # lvim link
 LVIM_PATH="$HOME/.config/lvim"
-ln -f $DOTFILES/config.lua $LVIM_PATH/config.lua
+ln -sf $DOTFILES/config.lua $LVIM_PATH/config.lua
 
 # zsh links
 ln -sf $DOTFILES/.zshrc $HOME/.zshrc
