@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Cargo apps:"
-cargo install bat ripgrep skim
+cargo install bat ripgrep skim bottom
