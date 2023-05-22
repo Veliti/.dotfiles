@@ -7,3 +7,5 @@
 [user]
 	email = 71709424+Veliti@users.noreply.github.com
 	name = Veliti
+[pull]
+	rebase = false

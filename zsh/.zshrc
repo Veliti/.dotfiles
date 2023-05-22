@@ -2,7 +2,10 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="kphoen"
 
-plugins=(git)
+plugins=(
+  git
+  zsh-syntax-highlighting
+)
 source $ZSH/oh-my-zsh.sh
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -12,6 +15,7 @@ alias c=clear
 alias 'cd..'="cd .."
 alias nala="sudo nala"
 alias cdp="cd $PROJ"
+alias open='xdg-open'
 
 # zsh parameter completion for the dotnet CLI
 _dotnet_zsh_complete() 
