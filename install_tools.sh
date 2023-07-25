@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Cargo apps:"
-cargo install bat ripgrep skim bottom bob-nvim
-
 echo "RUSTUP"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
 rustup toolchain install nightly --allow-downgrade --profile minimal --component clippy
