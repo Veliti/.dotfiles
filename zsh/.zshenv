@@ -7,3 +7,4 @@ export PATH=$HOME/.local/share/bob/nvim-bin:$PATH
 export DOTNET_ROOT="/usr/share/dotnet"
 
 PROJ="$HOME/Documents/Projects"
+. "$HOME/.cargo/env"
