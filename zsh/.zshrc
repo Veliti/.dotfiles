@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="kphoen"
+fpath+=~/.zfunc
 
 plugins=(
   git
@@ -18,7 +19,8 @@ alias cdp="cd $PROJ"
 alias open='xdg-open'
 
 # zsh parameter completion for the dotnet CLI
-_dotnet_zsh_complete() 
+
+_dotnet_zsh_complete()
 {
   local completions=("$(dotnet complete "$words")")
 

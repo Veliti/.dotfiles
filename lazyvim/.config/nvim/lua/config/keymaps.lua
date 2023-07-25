@@ -27,6 +27,3 @@ map("n", "<A-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window w
 -- Change Buffers using <shift> arrow keys
 map("n", "<S-Down>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Prev buffer" })
 map("n", "<S-Up>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next buffer" })
-
--- Additional comment button
-map("v", "<leader>/", "gc", { desc = "Comment line" })
