@@ -16,6 +16,7 @@ alias 'cd..'="cd .."
 alias nala="sudo nala"
 alias cdp="cd $PROJ"
 alias open='xdg-open'
+alias wezterm='flatpak run org.wezfurlong.wezterm'
 
 # zsh parameter completion for the dotnet CLI
 
