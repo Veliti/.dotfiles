@@ -1,3 +1,6 @@
+export GIT_EDITOR=nvim
+
+
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.npm/bin:$PATH
@@ -11,4 +14,4 @@ export DOTNET_ROOT="/usr/share/dotnet"
 # export LUA_CPATH='/usr/lib64/lua/5.4/?.so;/usr/lib64/lua/5.4/loadall.so;./?.so;/home/veliti/.luarocks/lib64/lua/5.4/?.so'
 
 PROJ="$HOME/Documents/Projects"
-. "$HOME/.cargo/env"
+. "$HOME/.cargo/env" 2>/dev/null
