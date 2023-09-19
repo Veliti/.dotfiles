@@ -15,7 +15,7 @@ return {
 		{ key = "7", mods = "ALT", action = act.ActivateTab(6) },
 		{ key = "8", mods = "ALT", action = act.ActivateTab(7) },
 		{ key = "9", mods = "ALT", action = act.ActivateTab(-1) },
-		{ key = "f", mods = "ALT", action = act.Search("CurrentSelectionOrEmptyString") },
+		{ key = "c", mods = "ALT", action = act.Search("CurrentSelectionOrEmptyString") },
 		{ key = "r", mods = "ALT", action = act.ReloadConfiguration },
 		{ key = "t", mods = "ALT", action = act.SpawnTab("CurrentPaneDomain") },
 		{ key = "w", mods = "ALT", action = act.CloseCurrentTab({ confirm = true }) },
